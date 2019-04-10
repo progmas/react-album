@@ -5,8 +5,8 @@ import AlbumList from './src/components/AlbumList';
 
 const App = () => (
     <View style={{ flex: 1 }}>
-        <Header headerText={'Deneme22'} />
-        <Header headerText="Deneme33" />
+        <Header headerText={'Başlık-1'} />
+        <Header headerText={"Başlık-2"} />
         <AlbumList />
     </View>
 );
